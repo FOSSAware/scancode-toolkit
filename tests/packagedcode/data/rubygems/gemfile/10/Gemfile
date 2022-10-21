@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'nokogiri', '~> 1.12', '< 1.13' ### TEMPORARY PIN 1.13 requires ruby > 2.5
+gem 'nokogiri', '~> 1.13' ### TEMPORARY PIN 1.13 requires ruby > 2.5
 
 gem 'rails', '~> 5.2'
 gem 'dotenv-deployment'
